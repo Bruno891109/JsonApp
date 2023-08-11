@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="21513" systemVersion="21G419" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Employee" representedClassName=".Employee" syncable="YES">
+        <attribute name="biography" optional="YES" attributeType="String"/>
+        <attribute name="email_address" optional="YES" attributeType="String"/>
+        <attribute name="employee_type" optional="YES" attributeType="String"/>
+        <attribute name="full_name" optional="YES" attributeType="String"/>
+        <attribute name="largePhoto" optional="YES" attributeType="URI"/>
+        <attribute name="phone_number" optional="YES" attributeType="String"/>
+        <attribute name="smallPhoto" optional="YES" attributeType="URI"/>
+        <attribute name="team" optional="YES" attributeType="String"/>
+        <attribute name="uuid" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+    </entity>
+</model>
